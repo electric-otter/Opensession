@@ -49,7 +49,7 @@ const OpenSession = () => {
     window.location.href = 'https://github.com/codespaces';
   };
 
-  return e('div', null, 
+  return e('div', null,
     e('h1', { style: headingStyle }, 'VMs, storage, and even cloud services are so infuriating, cloud services making you pay, all to have a messy buggy computer-connecting space, not anymore! With OpenSession you have everything in a session.'),
     e('h2', { style: { textAlign: 'center' } }, 'Select a session to start:'),
     e('button', { style: buttonStyle, onClick: () => handleSessionClick('Development') }, 'Development Session'),
