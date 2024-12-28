@@ -37,9 +37,9 @@ const OpenSession = () => {
   const [projectName, setProjectName] = React.useState('');
   const [license, setLicense] = React.useState('');
 
-  const handleSessionClick = (session) => {
-    setSession(session);
-    if (session === 'Design') {
+  const handleSessionClick = (sessionType) => {
+    setSession(sessionType);
+    if (sessionType === 'Design') {
       window.location.href = 'https://www.figma.com';
     }
   };
